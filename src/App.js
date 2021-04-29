@@ -1,25 +1,64 @@
-import logo from './logo.svg';
+import {useState, useEffect} from 'react'
 import './App.css';
 
 function App() {
+
+
+
+  
+  const url = "https://xkcd.vercel.app/?comic=latest"
+
+
+  const [comic, setComic] = useState(null)
+
+  const getComic = async () => {
+    const response = await fetch(url);
+
+
+    const Data = await response.json()
+     
+
+
+      setComic(Data)
+
+
+        
+    }
+ 
+
+
+    useEffect(() => {getComic()}, [])
+
+
+
+
+const loaded = () => {
+
+  console.log("Comictest", comic)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    <h1>Hello</h1>
+  )
 }
+
+
+const loading = () => {
+
+return (
+  <h1>Loading..</h1>
+)
+
+
+}
+
+return comic ? loaded() : loading()
+
+}
+
+
+
+ 
+
 
 export default App;
