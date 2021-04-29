@@ -9,7 +9,7 @@
 
 An webpage that is capable of rendering various XKDC comics across itself. User's will be able to input a number which will grab the XKDC comic in quiestion. 
 
-Link to one such comic in the API: https://xkcd.vercel.app/?comic=303
+
 
 ## API
 
@@ -17,6 +17,8 @@ Use this section to include info about the API you have chosen and a code snippe
 
 
 ```
+Link to API page: https://xkcd.vercel.app/?comic=303
+
 {Comictest {month: "4", num: 2456, link: "", year: "2021", news: "", …} }
 ```
 
