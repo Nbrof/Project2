@@ -2,8 +2,8 @@
 
 ## Project Links
 
-- [add your github repo link]()
-- [add your deployment link]()
+- [add your github repo link](https://github.com/Nbrof/Project2)
+- [add your deployment link](https://project2-orcin.vercel.app/)
 
 ## Project Description
 
