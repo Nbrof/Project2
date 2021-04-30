@@ -60,8 +60,8 @@ year: "2021" }
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
 - [Mobile](https://imgur.com/a/PRWsZ1M)
-- [Tablet] (https://imgur.com/JtTsJ8w)
-- [Desktop] (https://i.imgur.com/Mr4Cdr7.jpg)
+- [Tablet](https://imgur.com/JtTsJ8w)
+- [Desktop](https://i.imgur.com/Mr4Cdr7.jpg) 
 - [Time Matrix](https://i.imgur.com/AUKG8Ad.jpg) 
 - [React Architecture](https://i.imgur.com/T9mDp7F.jpg)
 
