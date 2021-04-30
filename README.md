@@ -11,6 +11,25 @@ An webpage that is capable of rendering various XKDC comics across itself. User'
 
 
 
+## Project Schedule
+
+This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
+
+
+
+|  Day | Deliverable | Status
+|---|---| ---|
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 2| Application Structuring | Incomplete
+|Day 3| API Integration/Rendering| Incomplete
+|Day 3-4| MVP & Bug Fixes | Incomplete
+|Day 4| Final Touches | Incomplete
+|Day 5| Present | Incomplete
+
+
+
+
 ## API
 
 Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
@@ -40,8 +59,10 @@ year: "2021" }
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [Wireframes](https://imgur.com/a/PRWsZ1M)
-- [add link to your wireframes](https://imgur.com/a/oO2MVAT) 
+- [Mobile](https://imgur.com/a/PRWsZ1M)
+- [Tablet] (https://imgur.com/JtTsJ8w)
+- [Desktop] (https://i.imgur.com/Mr4Cdr7.jpg)
+- [Time Matrix](https://i.imgur.com/AUKG8Ad.jpg) 
 - [React Architecture](https://i.imgur.com/T9mDp7F.jpg)
 
 
@@ -60,6 +81,9 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### PostMVP 
 
 - Advanced Styling and details.
+- Additional Comic snippets
+- Animation effects
+- Research into incorperating additional Libraries.
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
