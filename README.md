@@ -27,8 +27,8 @@ Link to API page: https://xkcd.vercel.app/?comic=303
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes]()
-- [add link to your react architecture]()
+- [add link to your wireframes](https://imgur.com/a/PRWsZ1M)
+- [add link to your react architecture](https://i.imgur.com/T9mDp7F.jpg)
 
 
 ### MVP/PostMVP - 5min
@@ -42,7 +42,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP EXAMPLE
 
-- Add localStorage or firebase for storage
+- Additional Styling for the page.
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
