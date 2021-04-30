@@ -2,8 +2,8 @@
 
 ## Project Links
 
-- [add your github repo link](https://github.com/Nbrof/Project2)
-- [add your deployment link](https://project2-orcin.vercel.app/)
+- [Github Repo](https://github.com/Nbrof/Project2)
+- [Deployed Webpage](https://project2-orcin.vercel.app/)
 
 ## Project Description
 
@@ -40,9 +40,9 @@ year: "2021" }
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes](https://imgur.com/a/PRWsZ1M)
+- [Wireframes](https://imgur.com/a/PRWsZ1M)
 - [add link to your wireframes](https://imgur.com/a/oO2MVAT) 
-- [add link to your react architecture](https://i.imgur.com/T9mDp7F.jpg)
+- [React Architecture](https://i.imgur.com/T9mDp7F.jpg)
 
 
 ### MVP/PostMVP - 5min
