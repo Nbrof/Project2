@@ -41,6 +41,7 @@ year: "2021" }
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
 - [add link to your wireframes](https://imgur.com/a/PRWsZ1M)
+- [add link to your wireframes](https://imgur.com/a/oO2MVAT) 
 - [add link to your react architecture](https://i.imgur.com/T9mDp7F.jpg)
 
 
@@ -93,7 +94,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |  Basic App Styling| M | 3hrs|  | |
 | Component Styling| M | 2hrs|  | |
 | Bug Fixes | H | 2.5hrs|  | |
-| Total | H | 30hrs|  |  |
+| Total | H | 32hrs|  |  |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
