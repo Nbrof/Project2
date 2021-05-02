@@ -1,58 +1,35 @@
 import {useState, useEffect} from 'react'
 import './App.css';
+import Footer from './components/footer'
+import Header from './components/header'
+import InfoBox from './components/InfoBox'
+import Main from './pages/Main'
 
 function App() {
 
 
-
-  
-  const url = "https://xkcd.vercel.app/?comic=latest"
-
-
-  const [comic, setComic] = useState(null)
-
-  const getComic = async () => {
-    const response = await fetch(url);
-
-
-    const Data = await response.json()
-     
-
-
-      setComic(Data)
-
-
-        
-    }
- 
-
-
-    useEffect(() => {getComic()}, [])
-
-
-
-
-const loaded = () => {
-
-  console.log("Comictest", comic)
-
-  return (
-
-    <h1>Hello</h1>
-  )
-}
-
-
-const loading = () => {
-
 return (
-  <h1>Loading..</h1>
+<div className="App">
+<Header />
+<InfoBox />
+
+<Main />
+
+<Footer />
+
+
+
+</div>
+
+
+
 )
 
 
-}
 
-return comic ? loaded() : loading()
+
+  
+  
 
 }
 
