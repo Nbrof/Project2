@@ -5,7 +5,7 @@ const Random = (props) => {
 
     return (
         <div>
-            Infobox
+            Comic 2
         </div>
     )
 }
