@@ -28,9 +28,10 @@ code {
 
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: rgb(75, 70, 70);
   color: white;
   padding: 15px;
+  margin-top: 10px;;
   font-size: 2em;
 }

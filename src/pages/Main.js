@@ -26,6 +26,8 @@ const Main = (props) => {
  
 
 
+
+
     useEffect(() => {getComic()}, [])
 
 
@@ -39,6 +41,7 @@ const loaded = () => {
     <div>
       <h2>{comic.title}</h2>
       <img src={comic.img} alt={comic.alt} ></img>
+      
     </div>
 
   )
@@ -47,10 +50,12 @@ const loaded = () => {
 
 const loading = () => {
 
-return (
+  
+return (<div>
   <h1>Loading..</h1>
+  {/* <button onClick={buttonComic}>Testing</button> */}
+  </div>
 )
-
 
 }
 
