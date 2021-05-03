@@ -38,7 +38,7 @@ const loaded = () => {
   return (
     <div>
       <h2>{comic.title}</h2>
-      <img src={comic.img}></img>
+      <img src={comic.img} alt={comic.alt} ></img>
     </div>
 
   )
