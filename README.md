@@ -21,7 +21,7 @@ This schedule will be used to keep track of your progress throughout the week an
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 2| Application Structuring | Incomplete
+|Day 2| Application Structuring | Complete
 |Day 3| API Integration/Rendering| Incomplete
 |Day 3-4| MVP & Bug Fixes | Incomplete
 |Day 4| Final Touches | Incomplete
