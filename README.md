@@ -134,3 +134,11 @@ function reverse(string) {
 	// here is the code to reverse a string of text
 }
 ```
+
+
+## Issues and Resolutions
+ Use this section to list of all major issues encountered and their resolution.
+
+#### 
+**ERROR**: App would not deploy on a live site                    
+**RESOLUTION**: Continuous Integration error, Added CI=False to NPM Build.
