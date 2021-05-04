@@ -35,3 +35,24 @@ code {
   margin-top: 10px;;
   font-size: 2em;
 }
+
+.comicimage {
+
+  width: 100%;
+  height: 100%;
+
+}
+
+@media screen and (min-width: 768px) {
+
+
+  .comicimage {
+
+    width: auto;
+    height: auto;
+  
+  }
+
+
+
+}
