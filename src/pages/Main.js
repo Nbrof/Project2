@@ -40,6 +40,7 @@ const loaded = () => {
   return (
     <div>
       <h2>{comic.title}</h2>
+      <h3>Originally posted on: {comic.month}/{comic.day}/{comic.year}</h3>
       <img src={comic.img} alt={comic.alt} className="comicimage" ></img>
       
     </div>
@@ -52,7 +53,7 @@ const loading = () => {
 
   
 return (<div>
-  <h1>Loading..</h1>
+  <h1>Click here to get a Comic!</h1>
   <button onClick={getComic}>Testing</button>
   </div>
 )
