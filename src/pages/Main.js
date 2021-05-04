@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react'
+import { Button } from 'reactstrap';
 
 
 const Main = (props) => {
@@ -54,7 +55,7 @@ const loading = () => {
   
 return (<div>
   <h1>Click here to get a Comic!</h1>
-  <button onClick={getComic}>Testing</button>
+  <Button color="secondary" size="lg" onClick={getComic} >Click me!</Button>
   </div>
 )
 

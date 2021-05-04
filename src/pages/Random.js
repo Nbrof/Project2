@@ -1,4 +1,5 @@
 import {useState, useEffect} from 'react'
+import { Button } from 'reactstrap';
 
 const Random = (props) => {
 
@@ -59,6 +60,10 @@ const loaded = () => {
          <h2>{comic.title}</h2>
          <h3>Originally posted on: {comic.month}/{comic.day}/{comic.year}</h3>
       <img src={comic.img} alt={comic.alt} className="comicimage" ></img>
+      <br></br>
+      <br></br>
+      <Button color="secondary" size="lg" onClick={getComic} >Randomizer!</Button>
+      
     </div>
 
   )
@@ -69,7 +74,7 @@ const loading = () => {
 
 return (<div>
   <h1>Click here to get a Comic!</h1>
-  <button onClick={getComic}>Testing</button>
+  <Button color="secondary" size="lg" onClick={getComic} >Click me!</Button>
   </div>
 )
 
