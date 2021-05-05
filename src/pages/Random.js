@@ -56,7 +56,7 @@ const loaded = () => {
   console.log("Comictest", comic)
 
   return (
-    <div>
+    <div className="comicdiv">
          <h2>{comic.title}</h2>
          <h3>Originally posted on: {comic.month}/{comic.day}/{comic.year}</h3>
       <img src={comic.img} alt={comic.alt} className="comicimage" ></img>
