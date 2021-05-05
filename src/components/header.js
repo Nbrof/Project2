@@ -7,10 +7,10 @@ const Header = (props) => {
     return (
         <div className="nav">
             <Link to ="/">
-                <div>Comic 1</div>
+                <div>Latest Comic</div>
             </Link>
             <Link to ="/Random">
-                <div>Comic 2</div>
+                <div>Randomizer</div>
             </Link>
         </div>
     )

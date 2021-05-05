@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react'
 import { Button } from 'reactstrap';
 
+
 const Random = (props) => {
 
 
@@ -63,6 +64,8 @@ const loaded = () => {
       <br></br>
       <br></br>
       <Button color="secondary" size="lg" onClick={getComic} >Randomizer!</Button>
+      <br></br>
+      
       
     </div>
 
