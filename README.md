@@ -22,8 +22,8 @@ This schedule will be used to keep track of your progress throughout the week an
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 2| Application Structuring | Complete
-|Day 3| API Integration/Rendering| Incomplete
-|Day 3-4| MVP & Bug Fixes | Incomplete
+|Day 3| API Integration/Rendering| Complete
+|Day 3-4| MVP & Bug Fixes | Complete
 |Day 4| Final Touches | Incomplete
 |Day 5| Present | Incomplete
 
@@ -101,24 +101,24 @@ Based on the initial logic defined in the previous sections try and breakdown th
 Note: Multiple Comic components TBD
 
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
+## TimeFrames
 
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Information Research | M | 3hrs| | |
-| Structure Planning | M | 2hrs| | |
-| Reactstrap Research | M | 2hrs| | |
-| Basic App/Component Structuring| H | 3hrs| | |
-| Router Structuring | L | 2hrs| | |
-| API Manipulation | H | 2hrs| | |
-| API Element Rendering| H | 3hrs| | |
-| Advanced Component Structuring| M | 2hrs| | |
-| User Input| M| 2.5hrs| | |
-| Reponsive Design| H | 3hrs| | |
-|  Basic App Styling| M | 3hrs|  | |
-| Component Styling| M | 2hrs|  | |
-| Bug Fixes | H | 2.5hrs|  | |
-| Total | H | 32hrs|  |  |
+| Information Research | M | 3hrs|3hrs| 
+| Structure Planning | M | 2hrs|1.5hrs | 
+| Reactstrap Research | M | 2hrs|1hrs | 
+| Basic App/Component Structuring| H | 3hrs|2.5hrs | 
+| Router Structuring | L | 2hrs| 2hrs| 
+| API Manipulation | H | 2hrs| 2hrs | 
+| API Element Rendering| H | 3hrs| 3hrs | 
+| Advanced Component Structuring| M | 2hrs|1.5hrs | 
+| User Input| M| 2.5hrs|2hrs | 
+| Reponsive Design| H | 3hrs|3.5hrs | 
+|  Basic App Styling| M | 3hrs| 4hrs | 
+| Component Styling| M | 2hrs| 1hr | 
+| Bug Fixes | H | 2.5hrs|  | 
+| Total | H | 32hrs|  |  
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
@@ -130,9 +130,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+  const getComic = async () => {
+      const url = `https://xkcd.vercel.app/?comic=${getRandomInt(comicStart.num)}`
+      const response = await fetch(url);
+      const Data = await response.json()
+        setComic(Data)
+      }
 ```
 
 
@@ -142,3 +145,12 @@ function reverse(string) {
 #### 
 **ERROR**: App would not deploy on a live site                    
 **RESOLUTION**: Continuous Integration error, Added CI=False to NPM Build.
+
+**ERROR**: Text would not properly render in Quotebox component                
+**RESOLUTION**: Property was not properly passed down, Restructed Quotebox into an about box.
+
+
+
+
+
+
