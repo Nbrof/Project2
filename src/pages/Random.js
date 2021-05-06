@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react'
 import { Button } from 'reactstrap';
-
+import Quotebox from '../components/Quotebox'
 
 const Random = (props) => {
 
@@ -59,13 +59,15 @@ const loaded = () => {
   return (
     <div className="comicdiv">
          <h2>{comic.title}</h2>
+         <h5>Comic Number: {comic.num}</h5>
          <h3>Originally posted on: {comic.month}/{comic.day}/{comic.year}</h3>
       <img src={comic.img} alt={comic.alt} className="comicimage" ></img>
+      <h6>{comic.alt}</h6>
       <br></br>
       <br></br>
-      <Button color="secondary" size="lg" onClick={getComic} >Randomizer!</Button>
+      <Button color="secondary" size="lg" onClick={getComic} classnName="button" >Randomizer!</Button>
       <br></br>
-      
+      <Quotebox />
       
     </div>
 
@@ -77,7 +79,10 @@ const loading = () => {
 
 return (<div>
   <h1>Click here to get a Comic!</h1>
-  <Button color="secondary" size="lg" onClick={getComic} >Click me!</Button>
+  <Button color="secondary" size="lg" onClick={getComic} classnName="button" >Click me!</Button>
+  <br></br>
+  <Quotebox />
+      
   </div>
 )
 
