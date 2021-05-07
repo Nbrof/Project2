@@ -10,7 +10,7 @@ const InfoBox = (props) => {
         <Jumbotron fluid>
           <Container fluid>
             <h1 className="display-3">XKDC Generator</h1>
-            <p className="lead">An Application that can grab your favorite XKDC Comic. All credit for these comics goes to Randall Munroe</p>
+            <p className="lead"><span className="jumbotext">An Application that can grab your favorite XKDC Comic.</span> All credit for these comics goes to Randall Munroe</p>
           </Container>
         </Jumbotron>
       </div>
