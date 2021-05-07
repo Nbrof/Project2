@@ -100,7 +100,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Footer | This will render the header include the nav | 
 | Quotebox | A responsive component that briefly talks about XKDC's creator. | 
 
-Note: Multiple Comic components TBD
+
 
 
 ## TimeFrames
@@ -119,8 +119,8 @@ Note: Multiple Comic components TBD
 | Reponsive Design| H | 3hrs|3.5hrs | 
 |  Basic App Styling| M | 3hrs| 4hrs | 
 | Component Styling| M | 2hrs| 1hr | 
-| Bug Fixes | H | 2.5hrs|  | 
-| Total | H | 32hrs|  |  
+| Bug Fixes | H | 2.5hrs| 3hrs | 
+| Total | H | 32hrs| 30hrs |  
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
@@ -145,6 +145,10 @@ Use this section to include a brief code snippet of functionality that you are p
  Use this section to list of all major issues encountered and their resolution.
 
 #### 
+
+**ERROR**: API Information not being received                 
+**RESOLUTION**: CORS Error, Swapped to seperate API that had the same information.
+
 **ERROR**: App would not deploy on a live site                    
 **RESOLUTION**: Continuous Integration error, Added CI=False to NPM Build.
 
