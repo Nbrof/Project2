@@ -1,4 +1,3 @@
-import {useState, useEffect} from 'react'
 import {Route, Switch } from 'react-router-dom';
 import './App.css';
 import Footer from './components/footer'
@@ -35,21 +34,9 @@ return (
 
 </div>
 
-
-
 )
 
 
-
-
-  
-  
-
 }
-
-
-
- 
-
 
 export default App;

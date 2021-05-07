@@ -4,10 +4,6 @@ import Quotebox from '../components/Quotebox'
 
 const Random = (props) => {
 
-
- 
-
-
   const [comicStart, setComicStart] = useState(null)
 
   const getComicStart = async () => {
@@ -22,35 +18,23 @@ const Random = (props) => {
   }
 
     useEffect(() => {getComicStart()}, [])
-
    
     function getRandomInt(num) {
       return Math.floor(Math.random() * num);
     } 
-  
-  
-
 
     const [comic, setComic] = useState(null)
 
     const getComic = async () => {
-      const url = `https://xkcd.vercel.app/?comic=${getRandomInt(comicStart.num)}`
+      const url = `https://xkcd.vercel.app/?comic=${getRandomInt(comicStart.num)}` //This uses the previous API fetch to get the present amount of comics, And then uses that number in a random number generator
       const response = await fetch(url);
-  
   
       const Data = await response.json()
        
-  
-  
         setComic(Data)
-  
-  
-          
+    
       }
    
-
-
-
 
 const loaded = () => {
 
@@ -65,7 +49,7 @@ const loaded = () => {
       <h6>{comic.alt}</h6>
       <br></br>
       <br></br>
-      <Button color="secondary" size="lg" onClick={getComic} classnName="button" >Randomizer!</Button>
+      <Button color="secondary" size="lg" onClick={getComic} className="button" >Randomizer!</Button>
       <br></br>
       <Quotebox />
       
@@ -79,18 +63,16 @@ const loading = () => {
 
 return (<div>
   <h1>Click here to get a Comic!</h1>
-  <Button color="secondary" size="lg" onClick={getComic} classnName="button" >Click me!</Button>
+  <Button color="secondary" size="lg" onClick={getComic} className="button" >Click me!</Button>
   <br></br>
   <Quotebox />
       
   </div>
 )
 
-
 }
 
 return comic ? loaded() : loading()
-
 
 }
 

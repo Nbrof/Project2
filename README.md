@@ -24,7 +24,7 @@ This schedule will be used to keep track of your progress throughout the week an
 |Day 2| Application Structuring | Complete
 |Day 3| API Integration/Rendering| Complete
 |Day 3-4| MVP & Bug Fixes | Complete
-|Day 4| Final Touches | Incomplete
+|Day 4| Final Touches | Complete
 |Day 5| Present | Incomplete
 
 

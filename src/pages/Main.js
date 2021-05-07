@@ -7,33 +7,21 @@ const Main = (props) => {
 
 
 
-    const url = "https://xkcd.vercel.app/?comic=latest"
-
+    const url = "https://xkcd.vercel.app/?comic=latest" //This create a variable that can be used to place the API url anywhere
 
   const [comic, setComic] = useState(null)
 
   const getComic = async () => {
-    const response = await fetch(url);
+    const response = await fetch(url); //This fetchs the data from the API
 
 
     const Data = await response.json()
      
-
-
-      setComic(Data)
-
-
+      setComic(Data)  //This sets the state of the data so its saved.
         
     }
  
-
-
-
-
-    useEffect(() => {getComic()}, [])
-
-
-
+    useEffect(() => {getComic()}, []) //This renders the data on the page at the first render
 
 const loaded = () => {
 
@@ -49,7 +37,6 @@ const loaded = () => {
       <br></br>
       <Quotebox />
       
-      
     </div>
 
   )
@@ -61,7 +48,7 @@ const loading = () => {
   
 return (<div>
   <h1>Click here to get a Comic!</h1>
-  <Button color="secondary" size="lg" onClick={getComic} classnName="button" >Click me!</Button>
+  <Button color="secondary" size="lg" onClick={getComic} className="button" >Click me!</Button>
   <br></br>
       <Quotebox />
       
@@ -70,11 +57,7 @@ return (<div>
 
 }
 
-return comic ? loaded() : loading()
-
-
-
-
+return comic ? loaded() : loading() //This Ternary operator renders elements based on if it received Data
    
 }
 
