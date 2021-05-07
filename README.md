@@ -73,13 +73,14 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP 
 - Find and use external api 
 - Render data on page 
+- Render the latest XKDC comic to the page
 - Allow user to interact with a button to grab a random comic
-- Allow user to input some numbers to select a comic
 - Basic styling 
 - Ensuring Responsiveness
 
 #### PostMVP 
 
+- Allow user to input some numbers to select a comic
 - Advanced Styling and details.
 - Additional Comic snippets
 - Animation effects
@@ -97,6 +98,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Comic | This will render the comic that is pulled from the API| 
 | Infobox | This will render information, Including proper copyright information|
 | Footer | This will render the header include the nav | 
+| Quotebox | A responsive component that briefly talks about XKDC's creator. | 
 
 Note: Multiple Comic components TBD
 
